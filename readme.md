@@ -24,14 +24,14 @@ Jiangning Song ( Jiangning.Song@monash.edu) from Biomedicine Discovery Institute
 
 | FILE NAME           | DESCRIPTION                                                  |
 | :------------------ | :----------------------------------------------------------- |
-| training_set.csv    | the data used to train model (include phage name, host name, and class) |
-| training_kmeans.csv | the data used to train model (use K-Means clustering method to select negative samples, construct balanced training set) |
-| test_set.csv        | the data used to test model (include phage name, host name, and class) |
-| test_kmeans.csv     | the data used to test model (use K-Means clustering method to select negative samples, construct balanced test set) |
+| training_set.csv    | the data used to train the model (include phage name, host name, and class) |
+| training_kmeans.csv | the data used to train the model (use K-Means clustering method to select negative samples, construct a balanced training set) |
+| test_set.csv        | the data used to test the model (include phage name, host name, and class) |
+| test_kmeans.csv     | the data used to test the model (use K-Means clustering method to select negative samples, construct a balanced test set) |
 | test-random.csv     | the data used to test model (randomly select negative samples to balance test set) |
 | min_num.csv         | minimum feature file (for normalizing new feature)           |
 | max_num.csv         | maximum feature file (for normalizing new feature)           |
-| mediumdata          | save medium files when run codes                             |
+| mediumdata          | save medium files when running codes                             |
 | trainingfeatures    | save training features (file name is phage and host name)    |
 | testfeatures        | save test features (file name is phage and host name)        |
 | test-test.csv       | the data used to test 1-obtainfeatures.py code (include phage name, host name, and class) |
